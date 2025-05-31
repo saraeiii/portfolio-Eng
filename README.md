@@ -17,4 +17,4 @@ The portfolio is personalized and includes both customized content and design. I
 
 - Projects page :
 
-![Projects page screenshot](portefolio-2nd-version/public/image/projects.png)
+![Projects page screenshot](public/image/projets.jpg)
