@@ -13,8 +13,8 @@ The portfolio is personalized and includes both customized content and design. I
 
 - HomePage :
 
-![Homepage screenshot](portefolio-2nd-version/public/image/homePage.jpg)
+![Homepage screenshot](/public/image/homePage.jpg)
 
 - Projects page :
 
-![Projects page screenshot](public/image/projets.jpg)
+![Projects page screenshot](public/image/projects.png)
