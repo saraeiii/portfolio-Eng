@@ -18,3 +18,17 @@ The portfolio is personalized and includes both customized content and design. I
 - Projects page :
 
 ![Projects page screenshot](public/image/projects.png)
+
+- First project :
+
+![Project 1 page screenshot](public/image/projet1.png)
+
+- Second project :
+
+![Project 1 page screenshot](public/image/projet2.png)
+
+- Third project :
+
+![Project 1 page screenshot](public/image/projet3.png)
+
+  
