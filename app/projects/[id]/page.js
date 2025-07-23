@@ -50,7 +50,9 @@ const projectsData = [
   {
      id: "4",
     title: "Digital accessibility audit website",
-    description:"This ongoing project is a professional and accessible showcase website for an agency specializing in digital accessibility audits. Built with accessibility in mind from the ground up, the site highlights the importance of inclusive design and WCAG compliance. It features an overview of the agency’s mission, services, and values, and provides a contact form for organizations interested in improving their web accessibility.",
+    description:"Web application built with Node.js and React to assess and improve digital accessibility.",
+    detailedDescription: "This ongoing web application is designed to audit websites for digital accessibility issues based on WCAG standards. Built with Node.js and React, it allows users to submit URLs for evaluation, view accessibility reports, and receive recommendations for improvements. The platform promotes inclusive design by highlighting key areas such as contrast issues, missing ARIA labels, and keyboard navigation errors.",
+    technologies: ["Node.js", "React", "JavaScript"],
     technologies: ["Node.js", "React", "JavaScript"],
     features: [
        "Fully accessible layout following WCAG guidelines.",
