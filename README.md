@@ -17,7 +17,7 @@ The portfolio is personalized and includes both customized content and design. I
 
 - Projects page :
 
-![Projects page screenshot](public/image/projects.png)
+![Projects page screenshot](public/image/myProjects.png)
 
 - First project :
 
@@ -25,10 +25,15 @@ The portfolio is personalized and includes both customized content and design. I
 
 - Second project :
 
-![Project 1 page screenshot](public/image/projet2.png)
+![Project 2 page screenshot](public/image/projet2.png)
 
 - Third project :
 
-![Project 1 page screenshot](public/image/projet3.png)
+![Project 3 page screenshot](public/image/projet3.png)
+
+- Fourth project :
+
+![Project 4 page screenshot](public/image/projet4.png)
+
 
   
