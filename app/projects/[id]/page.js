@@ -2,6 +2,7 @@ import Header from '@/app/components/Header';
 import Footer from '@/app/components/Footer';
 import Link from 'next/link';
 import Image from 'next/image';
+import { notFound } from 'next/navigation';
 
 
 const projectsData = [
@@ -45,15 +46,29 @@ const projectsData = [
       "Search functionality to quickly find items by name or category."
     ],
     imageUrl: "/image/inventaire.png",
+  },
+  {
+     id: "4",
+    title: "Digital accessibility audit website",
+    description:"This ongoing project is a professional and accessible showcase website for an agency specializing in digital accessibility audits. Built with accessibility in mind from the ground up, the site highlights the importance of inclusive design and WCAG compliance. It features an overview of the agency’s mission, services, and values, and provides a contact form for organizations interested in improving their web accessibility.",
+    technologies: ["Node.js", "React", "JavaScript"],
+    features: [
+       "Fully accessible layout following WCAG guidelines.",
+    "Homepage presenting the agency’s mission and services.",
+    "Sections on digital accessibility and its impact.",
+    "Responsive design and contact form for inquiries."
+    ],
+    imageUrl: "/image/accessWeb.png",
   }
 
 ];
 
-export default function ProjectDetail({ params }) {
-  const project = projectsData.find(p => p.id === params.id);
+export default async function ProjectDetail({ params }) {
+  const id = params.id.toString();
+  const project = projectsData.find(p => p.id === id);
 
   if (!project) {
-    return <div>Project not found</div>;
+    notFound();
   }
 
   return (

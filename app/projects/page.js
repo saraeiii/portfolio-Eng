@@ -22,7 +22,15 @@ const projectsData = [
     description: "A desktop application designed for efficient inventory management.",
     imageUrl: "/image/warehouse.jpg",
     technologies: ["C#", "WPF"]
-  }
+  },
+  {
+    id : "4",
+    title: "Digital accessibility audit website",
+    description: "A website dedicated to digital accessibility audits, helping websites comply with WCAG standards and ensuring they are usable by everyone, including people with disabilities.",
+    imageUrl :"/image/banner.jpg",
+    technologies: ["Node.js", "React", "JavaScript"]
+ }
+
 ];
 
 export default function ProjectsList() {
