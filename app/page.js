@@ -1,3 +1,5 @@
+/* eslint-disable react/no-unescaped-entities */
+
 import Image from "next/image";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
@@ -6,20 +8,21 @@ export default function Home() {
   return (
     <div className="flex flex-col min-h-screen">
      
-      <title>Sara's Portfolio - Web Developer</title>
+      <title>Sara&apos;s Portfolio - Web Developer</title>
+
       <main className="flex flex-col gap-[32px] items-center justify-center flex-1 py-12 px-6" aria-labelledby="main-content">
         <Image 
           alt="Sara's professional headshot" 
           className="rounded-full shadow-xl border-4 border-white"
-          src="/image/headShot1.jpg" 
+          src="/portfolio-Eng/image/headShot1.jpg"
           width={300} 
           height={300} 
           priority 
         />
         
         <h1 className="text-3xl sm:text-4xl font-semibold text-center mt-6" role="heading" aria-level="1">
-          Hi, I'm Sara!
-        </h1>
+  Hi, I&apos;m Sara!
+</h1>
         
         <p className="text-center sm:text-left mt-4 text-lg sm:w-2/3">
           I am a Computer Programming graduate with a strong passion for modern technologies and web development. With expertise in React, Next.js, and Node.js, I enjoy creating dynamic and responsive applications. I am driven by the desire to continually grow and tackle new challenges in the tech industry.

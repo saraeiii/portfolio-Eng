@@ -17,7 +17,7 @@ const projectsData = [
       "Dynamic catalog of non-medication products (healthcare, hygiene, dietary supplements).",
       "Dedicated section for publishing health articles, prevention tips, medical news, and seasonal recommendations."
     ],
-    imageUrl: "/image/healthwave.jpg",
+    imageUrl: "/portfolio-Eng/image/healthwave.jpg",
   },
   {
     id: "2",
@@ -31,7 +31,7 @@ const projectsData = [
       "Users can post new exchange listings, describing the piece they offer and the piece they are seeking.",
       "A user can remove a listing they posted once the exchange is completed or canceled."
     ],
-    imageUrl: "/image/brichange1.png",
+    imageUrl: "/portfolio-Eng/image/brichange1.png",
   },
    {
     id: "3",
@@ -45,7 +45,7 @@ const projectsData = [
       "User authentication to restrict access and protect sensitive data.",
       "Search functionality to quickly find items by name or category."
     ],
-    imageUrl: "/image/inventaire.png",
+    imageUrl: "/portfolio-Eng/image/inventaire.png",
   },
   {
      id: "4",
@@ -60,7 +60,7 @@ const projectsData = [
     "Sections on digital accessibility and its impact.",
     "Responsive design and contact form for inquiries."
     ],
-    imageUrl: "/image/accessWeb.png",
+    imageUrl: "/portfolio-Eng/image/accessWeb.png",
   }
 
 ];

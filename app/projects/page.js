@@ -6,28 +6,28 @@ const projectsData = [
     id: "1",
     title: "Pharmacy Website",
     description: "A front-end website for a pharmacy",
-    imageUrl: "/image/healthwave.jpg",
+    imageUrl: "/portfolio-Eng/image/healthwave.jpg",
     technologies: ["HTML", "CSS", "JavaScript"]
   },
   {
     id: "2",
     title: "Lego Piece Exchange Platform",
     description: "A platform for exchanging Lego pieces",
-    imageUrl: "/image/brique.png",
+    imageUrl: "/portfolio-Eng/image/brique.png",
     technologies: ["Node.js", "JavaScript", "HTML/CSS"]
   },
    {
     id: "3",
     title: "Inventory Management Desktop Application",
     description: "A desktop application designed for efficient inventory management.",
-    imageUrl: "/image/warehouse.jpg",
+    imageUrl: "/portfolio-Eng/image/warehouse.jpg",
     technologies: ["C#", "WPF"]
   },
   {
     id : "4",
     title: "Digital accessibility audit website",
     description: "A website dedicated to digital accessibility audits, helping websites comply with WCAG standards and ensuring they are usable by everyone, including people with disabilities.",
-    imageUrl :"/image/banner.jpg",
+    imageUrl :"/portfolio-Eng/image/banner.jpg",
     technologies: ["Node.js", "React", "JavaScript"]
  }
 
